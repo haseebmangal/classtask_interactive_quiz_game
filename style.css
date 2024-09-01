@@ -1,0 +1,31 @@
+
+body {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: bisque;
+}
+h1{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+h2{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+.quiz_game .question_area{
+    padding-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background: rgba(255, 255, 255, 0.4);
+}
+#next_question{
+    font-weight: 100;
+    border-radius: 5px;
+    
+}
+
+
+
+  
