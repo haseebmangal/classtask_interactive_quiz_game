@@ -1,29 +1,43 @@
 
 body {
-    font-family: sans-serif;
     padding: 1rem;
     background-color: bisque;
 }
-h1{
+.quiz_head{
     font-size: large;
     font-family:'Times New Roman', Times, serif;
     font-weight: 100;
+    text-align: center;
 }
-h2{
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
-}
-.quiz_game .question_area{
+
+.quiz_game {
     padding-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
 }
+
+.quiz_game{
+    border: 2px solid black;
+    width: 60%;
+    margin-left: 250px;
+}
+
 #next_question{
-    font-weight: 100;
-    border-radius: 5px;
-    
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(119, 120, 94, 0.595);
+    font-weight: bold;
+    font-size: large;
+}
+.question_area li{
+    font-size: medium;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px;
 }
 
 
